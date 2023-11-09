@@ -10,5 +10,4 @@ class PostsController < ApplicationController
     Post.create(content: params[:content])
     redirect_to "/posts"
   end
-
 end
